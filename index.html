@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="zh-CN" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0, viewport-fit=cover">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>郑康伟 - 个人作品集</title>
+    <meta name="description" content="郑康伟个人作品集，包含文旅策划、多媒体设计、项目统筹、实习竞赛经历展示">
+    <meta name="keywords" content="个人作品集,文旅策划,多媒体设计,项目管理,管培生,茶艺师">
+    <meta name="author" content="郑康伟">
+    <meta name="theme-color" content="#667eea">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+    <!-- 图标图标 -->
+    <link rel="apple-touch-icon" sizes="180" href="assets/favicons/favicon-180.png">
+    <link rel="icon" type="image/png" sizes="32" href="assets/favicons/favicon-32.png">
+    <link rel="icon" type="image/png" sizes="16" href="assets/favicons/favicon-16.png">
+    <link rel="shortcut icon" href="assets/favicons/favicon.ico">
+    <meta name="msapplication-TileColor" content="#667eea">
+    <meta name="theme-color" content="#667eea">
+
+    <!-- Open Graph 社交标签 -->
+    <meta property="og:title" content="郑康伟 - 个人作品集">
+    <meta property="og:description" content="文旅策划、多媒体设计、项目统筹个人展示">
+    <meta property="og:type" content="website">
+
+    <!-- 外部样式库 -->
+    <link href="./css2" rel="stylesheet">
+    <link rel="stylesheet" href="./all.min.css">
+    <link href="./aos.css" rel="stylesheet">
+    <!-- 主样式文件 -->
+    <link rel="stylesheet" href="./styles.css">
+
+    <style id="particle-styles">
+        @keyframes float-particle {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 0.3; }
+            90% { opacity: 0.3; }
+            100% { transform: translateY(-100vh) rotate(360deg); opacity: 0; }
+        }
+        /* 联系板块强制居中 + 补齐图标样式 */
+        .contact-content {
+            justify-content: center;
+        }
+        .contact-info {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+        }
+        .contact-item {
+            width: 100%;
+            max-width: 400px;
+            justify-content: center !important;
+            text-align: center;
+            margin: 1rem 0;
+        }
+        .contact-item > div {
+            text-align: center;
+        }
+        /* 时间线图标默认样式兜底 */
+        .timeline-icon i {
+            display: block;
+        }
+    </style>
+</head>
+
+<body class="body loaded" data-aos-easing="ease-out-cubic" data-aos-duration="800" data-aos-delay="0">
+    <!-- 顶部导航 -->
+    <nav class="navbar" id="navbar" aria-label="主导航">
+        <div class="nav-container">
+            <a href="#home" class="logo" aria-label="回到首页">
+                <span>电话:15398925742 | 微信:xcllk8</span>
+            </a>
+
+            <!-- 移动端菜单按钮 -->
+            <button class="mobile-menu-toggle" aria-label="展开/收起导航菜单" aria-expanded="false" aria-controls="nav-links">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+
+            <!-- 导航链接（锚点全部正常跳转） -->
+            <ul class="nav-links" id="nav-links">
+                <li><a href="#home" class="nav-link active">主页</a></li>
+                <li><a href="#about" class="nav-link">关于我</a></li>
+                <li><a href="#skills" class="nav-link">专业技能</a></li>
+                <li><a href="#experience" class="nav-link">经历履历</a></li>
+                <li><a href="#portfolio" class="nav-link">证书展示</a></li>
+                <li><a href="#testimonials" class="nav-link">评价寄语</a></li>
+                <li><a href="#contact" class="nav-link">联系方式</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- 首页头部区域 -->
+    <section class="hero" id="home">
+        <div class="hero-container">
+            <div class="hero-content aos-init aos-animate">
+                <h1>郑康伟</h1>
+                <p class="hero-role">个人综合能力 | 高级茶艺师</p>
+                <p class="hero-tagline">
+                    将各类创意构想转化为落地成果，融合文旅策划与数字多媒体技能，打造兼具创意与实用性的方案及作品，依靠统筹协作与问题解决能力，应对工作中的各类实际挑战。
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary" aria-label="联系我">联系我</a>
+                    <a href="#portfolio" class="btn btn-secondary" aria-label="查看我的证书作品">查看证书</a>
+                </div>
+            </div>
+
+            <div class="hero-avatar aos-init aos-animate">
+                <div class="avatar-container">
+                    <img src="./Person-home.jpeg" alt="郑康伟个人头像" class="avatar-image" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 关于我 -->
+    <section class="section about" id="about">
+        <div class="container">
+            <h2 class="section-title aos-init aos-animate">个人简介</h2>
+            <p class="section-subtitle aos-init aos-animate">
+                热衷于打造可落地、高价值的综合解决方案，助力团队与业务稳步发展
+            </p>
+            <div class="about-content">
+                <div class="about-image aos-init aos-animate">
+                    <div class="about-img-container">
+                        <div class="about-img" style="background-image: url(Person-home.jpeg)"></div>
+                    </div>
+                </div>
+                <div class="about-text aos-init aos-animate">
+                    <p>
+                        拥有多次团队负责人经验，可独立统筹3-5人项目团队，熟练完成调研、策划、落地全流程工作。掌握旅游线路策划、多媒体课件开发、Excel数据分析等技能，斩获多项省级竞赛奖项。工作严谨负责，具备优秀跨部门沟通能力与用户思维，学习能力强，可快速适配岗位并创造价值。
+                    </p>
+                    <p>
+                        擅长以全局视角推进工作，结合创意与落地思维完成各项任务，精通团队管理、资源整合与问题排查，愿意持续学习、紧跟团队发展节奏。
+                    </p>
+                    <div class="tech-stack">
+                        <span class="tech-badge">统筹执行</span>
+                        <span class="tech-badge">沟通协作</span>
+                        <span class="tech-badge">流程优化</span>
+                        <span class="tech-badge">数据分析</span>
+                        <span class="tech-badge">方案设计</span>
+                        <span class="tech-badge">客户服务</span>
+                        <span class="tech-badge">持续学习</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 专业技能 -->
+    <section class="section skills" id="skills">
+        <div class="container">
+            <h2 class="section-title aos-init">技能与专长</h2>
+            <p class="section-subtitle aos-init">
+                我用于落地创意、高效开展工作的能力与工具
+            </p>
+            <div class="skills-grid">
+                <div class="skill-item aos-init" data-index="0">
+                    <div class="skill-header">
+                        <span class="skill-name">多媒体制作（PS/PR/PPT）</span>
+                        <span class="skill-percentage"></span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="95"></div>
+                    </div>
+                </div>
+                <div class="skill-item aos-init" data-index="1">
+                    <div class="skill-header">
+                        <span class="skill-name">团队沟通协作</span>
+                        <span class="skill-percentage"></span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="90"></div>
+                    </div>
+                </div>
+                <div class="skill-item aos-init" data-index="2">
+                    <div class="skill-header">
+                        <span class="skill-name">数据整理与分析</span>
+                        <span class="skill-percentage"></span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="85"></div>
+                    </div>
+                </div>
+                <div class="skill-item aos-init" data-index="3">
+                    <div class="skill-header">
+                        <span class="skill-name">方案策划撰写</span>
+                        <span class="skill-percentage"></span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="88"></div>
+                    </div>
+                </div>
+                <div class="skill-item aos-init" data-index="4">
+                    <div class="skill-header">
+                        <span class="skill-name">问题解决优化</span>
+                        <span class="skill-percentage"></span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="82"></div>
+                    </div>
+                </div>
+                <div class="skill-item aos-init" data-index="5">
+                    <div class="skill-header">
+                        <span class="skill-name">跨部门沟通</span>
+                        <span class="skill-percentage"></span>
+                    </div>
+                    <div class="skill-bar">
+                        <div class="skill-progress" data-width="80"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 经历履历 -->
+    <section class="section experience" id="experience">
+        <div class="container">
+            <h2 class="section-title aos-init">我的历程</h2>
+            <p class="section-subtitle aos-init">
+                实习工作与竞赛经历
+            </p>
+            <div class="timeline">
+                <div class="timeline-item aos-init" data-index="6">
+                    <div class="timeline-icon">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025年10月-2026年4月</div>
+                        <h3 class="timeline-title">海南启恒文化教育咨询有限公司 | 业务专员/助教</h3>
+                        <div class="timeline-company">实习岗位</div>
+                        <p class="timeline-description">核心职责：辅助开展计算机启蒙、学生心理健康两类课程，完成课前备课、课中协助、课后跟进全流程；整理优化教学资源，搭建内部教学资源库；收集学员反馈，协助优化课程内容。</p>
+                        <p class="timeline-description">量化成果：累计服务学员216人；搭建包含520+动画素材、36套PPT模板的资源库，大幅缩减团队备课时长；获评公司季度优秀助教。</p>
+                        <p class="timeline-description">个人收获：掌握教学内容从规划到落地的完整流程，提升沟通与问题处理能力，养成细致严谨的工作习惯。</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item aos-init" data-index="7">
+                    <div class="timeline-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2025 年 7 月</div>
+                        <h3 class="timeline-title">第十五届全国大学生红色旅游创意策划大赛 | 线路设计负责人</h3>
+                        <div class="timeline-company">竞赛项目</div>
+                        <p class="timeline-description">项目背景：结合海南红色文旅发展需求，针对本地红色资源分散、体验形式单一等问题，打造红色教育+滨海旅游融合线路。</p>
+                        <p class="timeline-description">核心工作：牵头3人团队完成文昌、琼海等6个红色点位实地调研，访谈工作人员与游客52人、收集问卷186份；结合地域特色设计3天2晚主题线路，统筹方案撰写与PPT制作，项目提前3天交付。</p>
+                        <p class="timeline-description">项目成果：完成1.2万字完整策划方案，团队斩获华南赛区二等奖；线路方案获评委认可，具备较高落地参考价值。</p>
+                        <p class="timeline-description">个人收获：精通文旅项目调研、策划、落地全流程，强化数据分析、团队统筹与应急处理能力。</p>
+                    </div>
+                </div>
+
+                <div class="timeline-item aos-init" data-index="8">
+                    <div class="timeline-icon">
+                        <i class="fas fa-laptop-code"></i>
+                    </div>
+                    <div class="timeline-content">
+                        <div class="timeline-date">2023 年 6 月 / 2024 年 6 月</div>
+                        <h3 class="timeline-title">第17/18届中国大学生计算机设计大赛（省级）| 课件设计负责人</h3>
+                        <div class="timeline-company">竞赛项目</div>
+                        <p class="timeline-description">项目背景：针对中小学信息化教学资源匮乏、形式单调问题，开发趣味化、实用化多媒体教学课件。</p>
+                        <p class="timeline-description">核心工作：协调2人小组分工，独立完成动画、交互课件设计制作，使用PS、PR、Flash等工具完成内容，经过多轮优化后提前一周提交作品。</p>
+                        <p class="timeline-description">项目成果：产出2套教学作品，总时长40+分钟、含15个交互模块，连续两届荣获省级二等奖，作品被本地3所院校用于日常教学。</p>
+                        <p class="timeline-description">个人收获：熟练掌握多媒体内容制作技能，建立标准化项目管理思维，提升跨角色协作能力。</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 证书展示 - 轮播区域 -->
+    <section class="section portfolio" id="portfolio" aria-labelledby="portfolio-title">
+        <div class="container">
+            <h2 class="section-title aos-init" id="portfolio-title">证书展示</h2>
+            <div class="portfolio-carousel aos-init" aria-roledescription="证书轮播">
+                <div class="carousel-container" id="carousel-container" style="transform: translateX(0%);">
+                    <!-- 证书1 -->
+                    <div class="carousel-slide carousel-slide-visible" role="group" aria-roledescription="幻灯片" aria-label="第1张，共4张">
+                        <div class="carousel-image">
+                            <img src="./project-1.jpeg" alt="荣誉证书" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <!-- 证书2 -->
+                    <div class="carousel-slide carousel-slide-visible" role="group" aria-roledescription="幻灯片" aria-label="第2张，共4张">
+                        <div class="carousel-image">
+                            <img src="./project-2.jpeg" alt="荣誉证书" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <!-- 证书3 -->
+                    <div class="carousel-slide carousel-slide-visible" role="group" aria-roledescription="幻灯片" aria-label="第3张，共4张">
+                        <div class="carousel-image">
+                            <img src="./project-3.jpeg" alt="荣誉证书" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                    <!-- 证书4 -->
+                    <div class="carousel-slide carousel-slide-visible" role="group" aria-roledescription="幻灯片" aria-label="第4张，共4张">
+                        <div class="carousel-image">
+                            <img src="./project-4.jpeg" alt="荣誉证书" loading="lazy" decoding="async">
+                        </div>
+                    </div>
+                </div>
+                <!-- 轮播指示器 -->
+                <div class="carousel-indicators">
+                    <div class="carousel-indicator active" data-slide="0"></div>
+                    <div class="carousel-indicator" data-slide="1"></div>
+                    <div class="carousel-indicator" data-slide="2"></div>
+                    <div class="carousel-indicator" data-slide="3"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 评价寄语 -->
+    <section class="section testimonials" id="testimonials">
+        <div class="container">
+            <h2 class="section-title aos-init">评价寄语</h2>
+            <p class="section-subtitle aos-init">来自合作方与导师的评价</p>
+            <div class="testimonials-grid">
+                <div class="testimonial-card aos-init" data-index="9">
+                    <p class="testimonial-text">
+                        工作认真细致，执行力出色，能够高效完成分配的各项任务，沟通顺畅，团队协作能力突出。
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background-image: url(user-10.png)"></div>
+                        <div class="testimonial-info">
+                            <h4>企业导师</h4>
+                            <p>海南启恒文化教育咨询有限公司</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card aos-init" data-index="10">
+                    <p class="testimonial-text">
+                        具备优秀的策划思维与落地能力，对待竞赛项目态度严谨，善于统筹团队、整合资源，成长速度很快。
+                    </p>
+                    <div class="testimonial-author">
+                        <div class="testimonial-avatar" style="background-image: url(user-11.png)"></div>
+                        <div class="testimonial-info">
+                            <h4>专业指导老师</h4>
+                            <p>院校指导教师</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 联系方式（独立区块 + 完全居中） -->
+    <section class="section contact" id="contact">
+        <div class="container">
+            <h2 class="section-title aos-init">联系我</h2>
+            <p class="section-subtitle aos-init">期待与您沟通交流，携手合作</p>
+            <div class="contact-content">
+                <div class="contact-info aos-init">
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>邮箱</h4>
+                            <p>zhengkw9@163.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>电话</h4>
+                            <p>15398925742</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>所在地</h4>
+                            <p>广东省广州市</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 页脚 -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <i class="fas fa-code"></i>
+                        <span>郑康伟</span>
+                    </div>
+                    <p class="footer-description">
+                        擅长将创意想法落地为实用方案与数字作品，具备文旅策划、多媒体设计与项目统筹综合能力，踏实进取，持续成长。
+                    </p>
+                    <div class="social-links">
+                        <a href="#" class="social-link" title="个人主页">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                        <a href="#" class="social-link" title="社交账号">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="#" class="social-link" title="社交账号">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link" title="社交账号">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="footer-section">
+                    <h4>快速导航</h4>
+                    <ul class="footer-links">
+                        <li><a href="#home">首页</a></li>
+                        <li><a href="#about">关于我</a></li>
+                        <li><a href="#portfolio">证书展示</a></li>
+                        <li><a href="#contact">联系我</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>意愿方向</h4>
+                    <ul class="footer-links">
+                        <li><a href="#portfolio">综合管理</a></li>
+                        <li><a href="#portfolio">多媒体设计</a></li>
+                        <li><a href="#portfolio">项目统筹</a></li>
+                        <li><a href="#portfolio">课件制作</a></li>
+                        <li><a href="#portfolio">综合事务</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-section">
+                    <h4>联系方式</h4>
+                    <div class="contact-info-footer">
+                        <div class="contact-item-footer">
+                            <i class="fas fa-envelope"></i>
+                            <a href="mailto:zhengkw9@163.com">zhengkw9@163.com</a>
+                        </div>
+                        <div class="contact-item-footer">
+                            <i class="fas fa-phone"></i>
+                            <a href="tel:15398925742">15398925742</a>
+                        </div>
+                        <div class="contact-item-footer">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <a href="#">广东省广州市</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                <div class="footer-bottom-content">
+                    <p>© 2026 郑康伟 个人作品集 保留所有权利</p>
+                    <div class="footer-bottom-links">
+                        <a href="#home">隐私政策</a>
+                        <a href="#home">使用条款</a>
+                        <a href="#home">说明</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- 滚动进度条 -->
+    <div class="scroll-progress" style="position: fixed; top: 0px; left: 0px; width: 0%; height: 3px; background: var(--gradient-primary); z-index: 10001; transition: width 0.1s; pointer-events: none;"></div>
+
+    <!-- JS 文件（保持原有本地路径） -->
+    <script src="./aos.js.下载"></script>
+    <script src="./navigation.js.下载"></script>
+    <script src="./main.js.下载"></script>
+
+    <script>
+        // 初始化AOS动画，移动端关闭提升性能
+        AOS.init({
+            duration: 800,
+            easing: "ease-in-out",
+            once: true,
+            disable: window.innerWidth < 768
+        });
+    </script>
+</body>
+</html>
